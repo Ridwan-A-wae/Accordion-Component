@@ -1,0 +1,129 @@
+.container {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 6rem;
+    background-color: white;
+    border-radius: 50px;
+
+}
+
+.accordion {
+    width: auto;
+}
+
+
+
+.hInfo {
+margin-bottom: 2rem;
+font-size: 20px;
+color: black;
+font-weight: 500;
+}
+
+.item0 {
+    background: #ffedd5;
+    border-left: 4px solid #fa8500;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    margin-bottom: 3rem;
+}
+
+.title0 {
+    background: #ffedd5;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+.item1 {
+    background: #e0e7ff;
+    border-left: 4px solid #818cf8;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    margin-bottom: 3rem;
+}
+
+.title1 {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+.item2 {
+    background: #ede9fe;
+    border-left: 4px solid #9e7ef9;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    margin-bottom: 3rem;
+}
+
+.title2 {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+.item3 {
+    background: #fce7f3;
+    border-left: 4px solid #f359ad;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    margin-bottom: 3rem;
+}
+
+.title3 {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+.item4 {
+    background: #f0fdf4;
+    border-left: 4px solid #4ade80;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    margin-bottom: 3rem;
+}
+
+.title4 {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.content {
+    color: #313131;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.25s cubic-bezier(0,1,0,1);
+    font-size: 20px;
+    width: auto;
+}
+
+.content.show {
+    height: auto;
+    width: auto;
+    max-height: 9999px;
+    transition: all 0.25s cubic-bezier(1,0,1,0) ;
+}
+
+.icons {
+    font-size: 24px;
+    padding-right: 1rem;
+}
